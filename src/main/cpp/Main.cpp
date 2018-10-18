@@ -1,21 +1,22 @@
 /**
- * CSC232 Data Structures with C++
+ * CSC232 - Data Structures
  * Missouri State University, Fall 2018.
+ *
+ * Grade Management System (GMS)
  *
  * @file   Main.cpp
  * @author Jim Daehn <jdaehn@missouristate.edu>
- * @brief  Entry point for gmsSoln target.
+ * @brief  Entry point of the gms target.
  */
+
 
 #include <cstdlib>
 #include <iostream>
 
-/**
- * Entry point for gmsSoln target.
+using std::cout;
+using std::endl;
 
- * @return EXIT_SUCCESS is returned.
- */
-int main() {
-	std::cout << "This is the gmsSoln target." << std::endl;
+int main(int argc, char *argv[]) {
+	cout << "Welcome to the Grade Management System" << endl;
 	return EXIT_SUCCESS;
 }
