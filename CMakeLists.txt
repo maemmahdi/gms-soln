@@ -88,7 +88,9 @@ set(SRC_TEST_FILES
         src/test/cpp/LabUnitTest.cpp
         src/test/cpp/LabUnitTest.h
         src/main/cpp/Quiz.cpp
-        src/main/cpp/Quiz.h src/test/cpp/QuizUnitTest.cpp src/test/cpp/QuizUnitTest.h)
+        src/main/cpp/Quiz.h
+        src/test/cpp/QuizUnitTest.cpp
+        src/test/cpp/QuizUnitTest.h)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/out)
 
