@@ -58,7 +58,9 @@ set(SRC_MAIN_FILES
         src/main/cpp/Homework.cpp
         src/main/cpp/Homework.h
         src/main/cpp/Lab.cpp
-        src/main/cpp/Lab.h)
+        src/main/cpp/Lab.h
+        src/main/cpp/Quiz.cpp
+        src/main/cpp/Quiz.h)
 set(SRC_DEMO_FILES
         src/main/cpp/Demo.cpp
         src/main/cpp/Exam.cpp
@@ -67,7 +69,9 @@ set(SRC_DEMO_FILES
         src/main/cpp/Homework.cpp
         src/main/cpp/Homework.h
         src/main/cpp/Lab.cpp
-        src/main/cpp/Lab.h)
+        src/main/cpp/Lab.h
+        src/main/cpp/Quiz.cpp
+        src/main/cpp/Quiz.h)
 set(SRC_TEST_FILES
         src/test/cpp/UnitTestRunner.cpp
         src/main/cpp/Exam.cpp
@@ -82,7 +86,9 @@ set(SRC_TEST_FILES
         src/main/cpp/Lab.cpp
         src/main/cpp/Lab.h
         src/test/cpp/LabUnitTest.cpp
-        src/test/cpp/LabUnitTest.h)
+        src/test/cpp/LabUnitTest.h
+        src/main/cpp/Quiz.cpp
+        src/main/cpp/Quiz.h src/test/cpp/QuizUnitTest.cpp src/test/cpp/QuizUnitTest.h)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/out)
 
